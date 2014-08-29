@@ -34,7 +34,8 @@ define('DB_PASSWORD', 'aef9e99d');
 
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+//define('DB_HOST', 'localhost');
+define('DB_HOST', 'us-cdbr-azure-west-a.cloudapp.net');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
