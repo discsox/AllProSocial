@@ -32,7 +32,6 @@ define('DB_USER', 'ba2c6e8b8bd1da');
 //define('DB_PASSWORD', 'T2Qqfv5sumUwQcvM');
 define('DB_PASSWORD', 'aef9e99d');
 
-
 /** MySQL hostname */
 //define('DB_HOST', 'localhost');
 define('DB_HOST', 'us-cdbr-azure-west-a.cloudapp.net');
