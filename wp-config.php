@@ -19,20 +19,18 @@ define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME']);
 define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content');
 define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
 
-echo "doc root " . $_SERVER['DOCUMENT_ROOT'] ."<br>";
-
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 //define('DB_NAME', 'allpro_wp');
-define('DB_NAME', 'allprowp');
+define('DB_NAME', 'allprosocialwp');
 
 /** MySQL database username */
 //define('DB_USER', 'allpro_wpadmin');
-define('DB_USER', 'ba2c6e8b8bd1da');
+define('DB_USER', 'bcfca148930d8e');
 
 /** MySQL database password */
 //define('DB_PASSWORD', 'T2Qqfv5sumUwQcvM');
-define('DB_PASSWORD', 'aef9e99d');
+define('DB_PASSWORD', 'b159e9f1');
 
 /** MySQL hostname */
 //define('DB_HOST', 'localhost');
