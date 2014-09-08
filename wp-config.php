@@ -22,23 +22,15 @@ define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', 'allpro_wp');
-//define('DB_NAME', 'allprosocialwp');//azure
-//define('DB_NAME', 'aps-wp');//amazon
 
 /** MySQL database username */
 define('DB_USER', 'allpro_wpadmin');
-//define('DB_USER', 'bcfca148930d8e');//azure
-//define('DB_USER', 'aps-wpadmin');//amazon
 
 /** MySQL database password */
 define('DB_PASSWORD', 'T2Qqfv5sumUwQcvM');
-//define('DB_PASSWORD', 'b159e9f1');//azure
-//define('DB_PASSWORD', 'JGdQPyR7u5t3jCbE');//amazon
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
-//define('DB_HOST', 'us-cdbr-azure-west-a.cloudapp.net');//azure
-//define('DB_HOST', 'localhost');//amazon
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
