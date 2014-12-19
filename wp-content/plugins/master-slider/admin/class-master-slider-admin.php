@@ -127,6 +127,7 @@ class Master_Slider_Admin {
 			return false;
 
 		msp_save_custom_styles();
+		msp_flush_all_sliders_cache();
 		update_option( 'masterslider_lite_plugin_version', MSWP_AVERTA_VERSION );
 		do_action( 'masterslider_after_plugin_updated' );
 
@@ -245,17 +246,14 @@ class Master_Slider_Admin {
 	/**
 	 * Add settings action link to the plugins page.
 	 *
-	 * @since    1.0.0
+	 * @since    1.2.0
 	 */
 	public function add_action_links( $links ) {
 
-		return array_merge(
-			array(
-				'settings' => '<a href="' . admin_url( 'admin.php?page=' . MSWP_SLUG . '-setting' ) . '">' . __( 'Settings', MSWP_TEXT_DOMAIN ) . '</a>'
-			),
-			$links
-		);
+		$links['settings'] = '<a href="' . admin_url( 'admin.php?page=' . MSWP_SLUG . '-setting' ) . '">' . __( 'Settings', MSWP_TEXT_DOMAIN ) . '</a>';
+		$links['go_pro']   = '<a href="http://avt.li/mslgo">' . __( 'Go Pro', MSWP_TEXT_DOMAIN ) . '</a>';
 
+		return $links;
 	}
 
 
